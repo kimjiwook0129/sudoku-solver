@@ -26,7 +26,13 @@ i$(document).ready(function() {
 					document.getElementById(index.toString()).value = stringdata[index];
 				}
 			},
+<<<<<<< HEAD
 			fail: function (error) {}
+=======
+			fail: function (error) {
+				;
+			}
+>>>>>>> 8a8e5f09ad5903eb2e264f9175631b5c5fc2070c
 		});
 
 
