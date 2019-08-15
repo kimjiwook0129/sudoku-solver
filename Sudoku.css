@@ -1,0 +1,84 @@
+body {
+  text-align: center;
+  table-align: center;
+  background-image: url("http://localhost:1234/numbers.jpg");
+  background-repeat: no-repeat;
+  background-size: 1500px 800px;
+}
+
+h1 {
+  font-size: 55px;
+  color: white;
+}
+
+table {
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.solution {
+  font-size: 50px;
+  font-family: Georgia;
+  background-color: white;
+  border: solid;
+  color: black;
+  padding: 5px 5px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.cell input {
+  font-size: 40px;
+  font-family: Verdana;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+.cell-d input {
+  border: 1px solid grey;
+  border-bottom: 2px solid black;
+  font-size: 40px;
+  font-family: Verdana;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.cell-u input {
+  border: 1px solid grey;
+  border-top: 2px solid black;
+  font-size: 40px;
+  font-family: Verdana;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.cell-r input {
+  border: 1px solid grey;
+  border-right: 2px solid black;
+  font-size: 40px;
+  font-family: Verdana;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.cell-l input {
+  border: 1px solid grey;
+  border-left: 2px solid black;
+  font-size: 40px;
+  font-family: Verdana;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 3px;
+}
